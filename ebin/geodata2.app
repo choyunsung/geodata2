@@ -1,0 +1,11 @@
+{application,geodata2,
+             [{description,"GeoIP2 db access application"},
+              {vsn,"0.8.0"},
+              {id,"git"},
+              {modules,[geodata2,geodata2_app,geodata2_format,geodata2_ip,
+                        geodata2_loader,geodata2_poolsup,geodata2_sup,
+                        geodata2_worker]},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{geodata2_app,[]}},
+              {env,[]}]}.
